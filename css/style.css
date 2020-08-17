@@ -1,24 +1,58 @@
-/* accent text color: #2196F3;
-primary text color: #212121; 
-main text color: #FFFFFF; 
-secondary text color: #757575; 
-secondary background: #F5F4FA; 
-primary background: #FFFFFF;
-accent background: #2196F3;*/
+:root {
+  --accent-text-color: #2196f3;
+  --primary-text-color: #212121;
+  --hero-text-color: #ffffff;
+  --secondary-text-color: #757575;
+  --secondary-background-color: #f5f4fa;
+  --primary-background-color: #ffffff;
+  --accent-background-color: #2196f3;
+}
 
 body {
-  background-color: #fff;
-}
-
-.nav:hover,
-.nav:focus {
-  color: ;
-}
-
-.nav:active {
-  color: blue;
+  background-color: var(--primary-background-color);
 }
 
 ul {
   list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: ;
+}
+
+.site-nav .link:hover:hover,
+.site-nav .link:focus {
+  color: ;
+}
+
+.site-nav .link:active {
+  color: blue;
+}
+
+.contacts {
+  color: ;
+}
+/* hero */
+.hero-title {
+  color: ;
+}
+
+.order-link {
+  color: ;
+}
+
+/* section quolity*/
+
+.quolity-caption {
+  color: ;
+}
+
+.quolity-title {
+  color: ;
+}
+
+.quolity-text {
+  color: ;
 }
