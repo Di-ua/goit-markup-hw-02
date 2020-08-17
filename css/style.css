@@ -1,0 +1,24 @@
+/* accent text color: #2196F3;
+primary text color: #212121; 
+main text color: #FFFFFF; 
+secondary text color: #757575; 
+secondary background: #F5F4FA; 
+primary background: #FFFFFF;
+accent background: #2196F3;*/
+
+body {
+  background-color: #fff;
+}
+
+.nav:hover,
+.nav:focus {
+  color: ;
+}
+
+.nav:active {
+  color: blue;
+}
+
+ul {
+  list-style: none;
+}
