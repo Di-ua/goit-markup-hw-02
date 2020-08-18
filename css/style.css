@@ -9,6 +9,7 @@
 }
 
 body {
+  color: var(--primary-text-color);
   background-color: var(--primary-background-color);
 }
 
@@ -19,40 +20,87 @@ ul {
 /* site-nav */
 
 .site-nav .link {
-  color: ;
+  color: var(--primary-text-color);
 }
 
-.site-nav .link:hover:hover,
+.site-nav .link:hover,
 .site-nav .link:focus {
-  color: ;
+  color: var(--accent-text-color);
 }
 
 .site-nav .link:active {
-  color: blue;
+  color: purple;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts:active {
+  color: purple;
 }
 
 .contacts {
-  color: ;
+  color: var(--secondary-text-color);
 }
+
 /* hero */
 .hero-title {
-  color: ;
+  color: var(--hero-text-color);
 }
 
 .order-link {
-  color: ;
+  color: var(--hero-text-color);
 }
 
 /* section quolity*/
 
 .quolity-caption {
-  color: ;
+  color: var(--hero-text-color);
 }
 
 .quolity-title {
-  color: ;
+  color: var(--primary-text-color);
 }
 
 .quolity-text {
-  color: ;
+  color: var(--secondary-text-color);
+}
+
+.service-title {
+  color: var(--primary-text-color);
+}
+
+.service-text {
+  color: var(--hero-text-color);
+}
+
+.staff {
+  background-color: var(--secondary-background-color);
+}
+
+.captions {
+  color: var(--primary-text-color);
+}
+
+.staff-title {
+  color: var(--primary-text-color);
+}
+
+.staff-text {
+  color: var(--secondary-text-color);
+}
+
+.social-links a {
+  color: var(--secondary-text-color);
+}
+.social-links a:hover,
+.social-links a:focus {
+  color: var(--accent-text-color);
+}
+
+.clients-link a:hover,
+.clients-link a:focus {
+  color: var(--accent-text-color);
 }
