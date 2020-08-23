@@ -57,7 +57,7 @@ a {
   color: purple;
 }
 
-.contacts a {
+.contacts > a {
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -151,6 +151,7 @@ a {
 
 .social-links a {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 .social-links a:hover,
 .social-links a:focus {
@@ -170,8 +171,10 @@ a {
   font-style: normal;
 }
 
-.connect {
+.connect > a {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
 }
