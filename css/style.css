@@ -42,6 +42,10 @@ a {
 }
 
 .site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link .contacts a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,13 +61,9 @@ a {
   color: purple;
 }
 
-.contacts > a {
+.contacts a {
   color: var(--secondary-text-color);
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ a {
   color: var(--hero-text-color);
 }
 
-.quolity-title {
+.quolity-title .service-text .followers {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,9 +121,6 @@ a {
 .service-text {
   color: var(--hero-text-color);
   background-color: var(--secondary-background-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .staff {
@@ -171,7 +168,7 @@ a {
   font-style: normal;
 }
 
-.connect > a {
+.connect a {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   text-decoration: none;
@@ -181,9 +178,6 @@ a {
 
 .followers {
   color: var(--hero-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .social-links:hover,
