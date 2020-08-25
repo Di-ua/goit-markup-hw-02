@@ -184,3 +184,6 @@ a {
 .social-links:focus {
   color: var(--accent-background-color);
 }
+.link .logotype {
+  color: var(--hero-text-color);
+}
